@@ -1,0 +1,39 @@
+.conten{
+    display: flex;
+    background: rgb(61, 222, 117);
+    border-radius: 20px;
+    flex-direction: column;
+    margin: 30px;
+    background-color: #0e6dcd5f;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter:blur(3px);
+    height: 400px;
+}
+.conten h2{
+    display: flex;
+    position: relative;
+    color: rgb(0, 0, 0);
+    bottom: 300px;
+    left: 50px;
+}
+
+.conten button{
+    border-radius: 5px;
+    background: rgb(46, 214, 192);    
+}
+
+.conten img{
+    display: flex;
+    position: relative;
+    border-radius: 40px;
+    width: 340px;
+    left: 680px;
+    top: 5px;
+}
+
+.name{
+    display: flex;
+    position: relative;
+    font-size: 35px;
+    bottom: 50px;
+}

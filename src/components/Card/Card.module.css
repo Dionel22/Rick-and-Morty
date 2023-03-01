@@ -1,0 +1,90 @@
+.conten{
+    padding: 10px;
+    background: #089812;
+    width: 210px;
+    height: 340px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-color: #44c7e485;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter:blur(3px);
+    margin: 10px;
+}
+.cerrar{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 30px;
+    background-color: #f62c2c;
+    border-radius: 10px;
+ 
+    right: 90px;
+    font-family: Insaniburger;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    border-radius: 30px;
+    width: 210px;
+    top: 5px;
+}
+.gender{
+    display: flex;
+    position: relative;
+    background: #43ea86;
+    border-radius: 15px;
+    padding: 5px;
+    width: 50px;
+   color: rgb(2, 2, 2);
+   font-size: 10px;
+   justify-content: center;
+   align-items: center;
+   text-align: justify;
+   top: 20px;
+}
+
+.species{
+    display: flex;
+    position: relative;
+    background: #01ac59;
+    border-radius: 15px;
+    padding: 5px;
+    width: 60px;
+    left: 140px;
+    top: 44px;
+    color: rgb(1, 1, 1);
+    font-size: 10px;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    top: 10px;
+    background-color: #5a6778a2;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter:blur(3px);
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.lin{
+    text-decoration: none;
+}
+
+
+/*  para hacer transparente
+    background-color: #ffffff4d;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter:blur(3px);
+
+    tipografia de rick morty
+    font-family: Get Schwifty ;
+*/

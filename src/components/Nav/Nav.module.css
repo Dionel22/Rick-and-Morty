@@ -1,0 +1,15 @@
+
+.contenedor{
+    display: inline-block;
+    position: relative;
+    background-color: #040b92dc;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter:blur(3px);
+    padding: 15px;
+    width: 1070px;
+    justify-content: end;
+    bottom: 480px;
+    right: 0px;
+    position: fixed;
+}  
+
