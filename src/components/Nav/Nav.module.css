@@ -1,7 +1,7 @@
 
 .contenedor{
     display: inline-block;
-    position: relative;
+    position: fixed;
     background-color: #040b92dc;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter:blur(3px);
@@ -10,6 +10,12 @@
     justify-content: end;
     bottom: 480px;
     right: 0px;
-    position: fixed;
+    
 }  
+ .favorito{
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin: 5px;
+ }
 

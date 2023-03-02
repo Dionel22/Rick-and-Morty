@@ -18,7 +18,6 @@ function Form(props) {
         ...userData,
         [name]: value
     }))
-    console.log("-->",errors)
   }
 
   const handleSubmit = e =>{
@@ -35,7 +34,9 @@ function Form(props) {
             <br />
             <label>Password: </label>
             <input type="password" name="password" value={userData.password} onChange={handleInputChange} />
+
             <p className={style.error}>{errors.password && errors.password}</p>
+       
             <button>Login</button>
         </form>
         </div>

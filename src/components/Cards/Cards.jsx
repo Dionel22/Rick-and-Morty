@@ -5,11 +5,12 @@ export default function Cards(props) {
    const { characters } = props;
    return (
         <div className={style.div}>
-          {characters.map((e) =>{ 
-          console.log(e)
+          {characters.map((e, i) =>{ 
+          //console.log(e)
           return (
             
            <Card 
+           key={i}
            id={e.id}
            name={e.name}
            gender={e.gender}
