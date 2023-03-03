@@ -7,8 +7,18 @@ export default function Nav(props) {
         <div  className={style.nav} >
                      
            <div className={style.contenedor}>
-   <Link to="/favorites" ><button className={style.favorito}>MIS FAVIRITOS</button></Link>
-            <Link to="/home" ><button className={style.home}>Home</button></Link>
+            
+            <Link to="/favorites" className={style.link} >
+                <button className={style.favorito}>MIS FAVIRITOS</button>
+            </Link>
+            <Link to="/home" className={style.link}>
+                <button className={style.home}>Home</button>
+            </Link>
+
+            <Link to="/about" className={style.link}>
+            <button className={style.about}>About</button>
+            </Link>
+
             <SearchBar onSearch={props.onSearch}/>
            </div> 
         </div>

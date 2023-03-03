@@ -1,5 +1,33 @@
 .conten{
-    background: rgb(202, 33, 33);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: rgba(33, 202, 67, 0.812);
     border-radius: 30px;
-    margin: 10px;
+    margin: 20px;
+    width: 900px;
+    height: 400px;
+    top: 50px;
+}
+
+.conten h1{
+    display: flex;
+    position: relative;
+    left: 220px;
+}
+.conten h2{
+    display: flex;
+    position: relative;
+    right: 120px;
+    top: 50px;
+}
+
+.conten p {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    text-align: start;
+    margin: 5px;
+    top: 110px;
+    right: 650px;
 }

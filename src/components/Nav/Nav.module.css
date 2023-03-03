@@ -1,21 +1,55 @@
 
 .contenedor{
-    display: inline-block;
+    display: flex;
     position: fixed;
-    background-color: #040b92dc;
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter:blur(3px);
+    background-color: #000000dc;
     padding: 15px;
     width: 1070px;
-    justify-content: end;
+    justify-content: space-between;
     bottom: 480px;
     right: 0px;
     
 }  
- .favorito{
+.favorito{
+    display: flex;
+    position: relative;
+    padding: 6px;
+    width: 120px;
     border-radius: 10px;
-    background: rgb(0, 0, 0);
+    background: rgb(17, 165, 7);
+    border: 3px solid rgb(3, 81, 7);
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+
+ } 
+
+ .link{
+  text-decoration: none
+ }
+
+
+
+ .home{
+    display: flex;
+    position: relative;
+    padding: 6px;
+    border-radius: 10px;
+    background: rgb(17, 165, 7);
     color: white;
     margin: 5px;
- }
+    border: 3px solid rgb(3, 81, 7);
+ 
+ } 
+ .about{
+    display: flex;
+    position: relative;
+    padding: 6px;
+    border-radius: 10px;
+    background: rgb(17, 165, 7);
+    color: white;
+    margin: 5px;
+    border: 3px solid rgb(3, 81, 7);
+ 
+ } 
 

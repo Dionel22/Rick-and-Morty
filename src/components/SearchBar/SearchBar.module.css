@@ -8,7 +8,7 @@
 
 .contenedor input{
     position: relative;
-    border: 3px solid rgb(4, 37, 136);
+    border: 3px solid rgb(4, 136, 15);
     border-radius: 10px;
     margin: 3px;
     padding: 3px;
@@ -16,8 +16,8 @@
 }
 
 .contenedor button {
-    background: rgb(98, 211, 203);
-    border: 3px solid rgb(4, 35, 136);
+    background: rgb(98, 211, 111);
+    border: 3px solid rgb(4, 136, 19);
     border-radius: 15px;
     margin: 3px;
     padding: 3px;

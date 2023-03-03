@@ -7,9 +7,7 @@
     width: 300px;
     justify-content: center;
     align-items: center;
-    background-color: #2788d78f;
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter:blur(3px);
+    background-color: #36d7279d;
     margin: 10px;
     top: 70px;
 
@@ -34,9 +32,9 @@
     align-items: center;
     left: 110px;
     margin: 10px;
-    background:  rgb(72, 241, 213);
+    background:  rgb(117, 239, 106);
     border-radius: 5px ;
-    border: 2px solid rgb(1, 88, 88);
+    border: 2px solid rgb(1, 75, 1);
     font-size: 20px;
     top: 30px;
 }

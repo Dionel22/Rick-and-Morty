@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /*fondo*/
-  background-image: url("https://www.xtrafondos.com/descargar.php?id=6046&resolucion=3840x2160");
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/DWMLHZSLTZB2VARS5777M3L4ZM.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -29,6 +29,10 @@ code {
 }
 
 /*
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/DWMLHZSLTZB2VARS5777M3L4ZM.jpg");  
+
+background-image: url("https://www.xtrafondos.com/descargar.php?id=6046&resolucion=3840x2160");
+
 
 background-image: url("https://www.gratistodo.com/wp-content/uploads/2021/09/Fondos-de-pantalla-Rick-y-Morty-Wallpapers-gratistodo.com-7.jpg");
 

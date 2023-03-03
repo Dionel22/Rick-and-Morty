@@ -5,10 +5,11 @@
     height: 340px;
     background-repeat: no-repeat;
     border-radius: 30px;
-    background-color: #44c7e485;
+    background-color: #44e44f85;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter:blur(3px);
     margin: 10px;
+    border: 5px solid rgb(3, 92, 4);
 }
 .cerrar{
     position: relative;
@@ -27,12 +28,12 @@
     position: relative;
     border-radius: 30px;
     width: 210px;
-    top: 5px;
+    bottom: 60px;
 }
 .gender{
     display: flex;
     position: relative;
-    background: #43ea86;
+    background: #43ead7;
     border-radius: 15px;
     padding: 5px;
     width: 50px;
@@ -41,18 +42,18 @@
    justify-content: center;
    align-items: center;
    text-align: justify;
-   top: 20px;
+   top: 242px;
 }
 
 .species{
     display: flex;
     position: relative;
-    background: #01ac59;
+    background: #01aca4;
     border-radius: 15px;
     padding: 5px;
     width: 60px;
     left: 140px;
-    top: 44px;
+    top: 265px;
     color: rgb(1, 1, 1);
     font-size: 10px;
     justify-content: center;
@@ -65,8 +66,8 @@
     flex-direction: row;
     font-size: 15px;
     color: rgb(0, 0, 0);
-    top: 10px;
-    background-color: #5a6778a2;
+    top: 230px;
+    background-color: #767e77a2;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter:blur(3px);
     border-radius: 20px;
@@ -77,8 +78,22 @@
 .div{
     display: flex;
     position: relative;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    top: 40px;
+}
+.orden{
+    border-radius: 10px;
+    background: #089812dd;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid rgb(3, 92, 4);
+}
+.divpadre{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 40px;
 }

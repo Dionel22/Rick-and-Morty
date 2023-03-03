@@ -48,9 +48,7 @@ function App () {
  const onClose = id =>{setCharacters(characters.filter((card)=> card.id !== id))}
 
   return (
-    <div className='App' style={{ padding: '25px' }}> 
-      {location.pathname !== "/" && <Nav onSearch={onSearch}/>}
-        
+    <div className='App' style={{ padding: '25px' }}>    
         <Routes>
           <Route exact path='/' element={<Form login={login}/>} />
           <Route path='/home' element={<Cards characters={characters} onClose={onClose}/> }/>
@@ -58,7 +56,7 @@ function App () {
           <Route path='/detail/:detailId' element={<Detail />} />
           <Route path='/favorites' element={<Favorites />} />
       </Routes>
-     
+         {location.pathname !== "/" && <Nav onSearch={onSearch}/>}
     </div>
   )
 }
